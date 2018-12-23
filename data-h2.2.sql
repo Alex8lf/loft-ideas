@@ -213,7 +213,7 @@ INSERT INTO PUBLIC."story"("id", "address", "date", "details", "kind", "name", "
 (73, 'пр. Гагарина, 166', TIMESTAMP '2017-05-01', '', 'Place Closed', 'Закрытие магазина Триал-спорт', 'Неизвестная причина', '56.25392699082123', '43.970007576973295', 73),
 (74, 'ул. Родионова, 187', TIMESTAMP '2017-05-01', 'https://versia.ru/pochemu-nekogda-uspeshnaya-set-restoranov-sbarro-okazalas-na-grani-bankrotstva', 'Place Closed', 'Закрытие Sbarro', 'Неизвестная причина', '56.307778042766266', '44.074958759737726', 74),
 (75, 'ул. Алексеевская, 29/25', TIMESTAMP '2017-05-01', '', 'Place Closed', 'Закрытие паба Кельтский Дом', 'Неизвестная причина', '56.32038938457664', '44.00318914251463', 75),
-(76, 'Карла Маркса 46', TIMESTAMP '2017-05-01', '', 'Place Closed', 'Закрытие кафе Крокодил Приходил', 'Неизвестная причина', '56.341055543076095', '43.94920484700044', 76),
+(76, 'Карла Маркса 46', TIMESTAMP '2016-01-27', 'https://vk.com/krokodilprihodil?w=wall-73220640_464', 'Place Closed', 'Закрытие кафе Крокодил Приходил', 'Неизвестная причина', '56.341055543076095', '43.94920484700044', 76),
 (77, 'просп., Ленина 67/1', TIMESTAMP '2017-05-01', '', 'Place Closed', 'Закрытие SuperMario Pizza', 'Неизвестная причина', '56.27170487106145', '43.91718360345992', 79);
 
 ALTER TABLE PUBLIC."story" ADD CONSTRAINT PUBLIC."FKg8fhtwijmkp8ocg4uid11y3v0" FOREIGN KEY("organization_id") REFERENCES PUBLIC."organization"("id") NOCHECK;  
